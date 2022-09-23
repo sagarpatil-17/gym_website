@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:wght@700&family=Space+Mono&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #262626;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+form {
+  display: flex;
+}
+
+.payment {
+  justify-content: center;
+  /* width: 60%; */
+  margin: 10rem auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.payment #price {
+  margin: 3rem 0 4rem;
+  width: 30vw;
+  text-align: center;
+  background-color: #f96167;
+  font-size: 2rem;
+}
+
+.div-content input,
+select {
+  border: 2px solid white;
+  padding: 1rem 0;
+}
+
+.payment h1 {
+  margin-bottom: 3rem;
+  font-size: 3rem;
+}
+
+.payment label {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.payment .div-content input {
+  width: 30vw;
+  margin-bottom: 2rem;
+  padding: 15px;
+}
+
+#expireMM {
+  margin-right: 0.5rem;
+}
+
+.payment .div-content .cvc {
+  margin-left: 3rem;
+  width: 17vw;
+}
+
+.p-btn {
+  padding: 1rem;
+  width: 30.3vw;
+  background-color: #f96167;
+  color: white;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.p-btn:hover {
+  border: 2px solid white;
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+.g-b {
+  display: none;
+}
+
+::placeholder {
+  text-align: center;
+}
+
+/* responsive */
+
+@media (max-width: 920px) {
+  .payment {
+    margin: 7rem auto;
+  }
+
+  .payment #price {
+    width: 39vw;
+  }
+
+  .payment .div-content input {
+    width: 39vw;
+  }
+
+  .p-btn {
+    width: 39.3vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .payment #price {
+    width: 43vw;
+  }
+
+  .payment .div-content input {
+    width: 43vw;
+  }
+
+  .p-btn {
+    width: 43.3vw;
+  }
+}
+
+@media (max-width: 540px) {
+  .payment #price {
+    width: 54vw;
+  }
+
+  .payment .div-content input {
+    width: 54vw;
+  }
+
+  .p-btn {
+    width: 54.5vw;
+  }
+}
+
+@media (max-width: 440px) {
+  .payment #price {
+    width: 65vw;
+  }
+
+  .payment .div-content input {
+    width: 65vw;
+  }
+
+  .p-btn {
+    width: 65.5vw;
+  }
+}
+
+@media (max-width: 400px) {
+  .payment #price {
+    width: 68vw;
+  }
+
+  .payment .div-content input {
+    width: 68vw;
+  }
+
+  .p-btn {
+    width: 68.5vw;
+  }
+}
+
+@media (max-width: 380px) {
+  .payment #price {
+    width: 70vw;
+  }
+
+  .payment .div-content input {
+    width: 70vw;
+  }
+
+  .p-btn {
+    width: 71.5vw;
+  }
+}
+
+@media (max-width: 360px) {
+  .payment #price {
+    width: 73vw;
+  }
+
+  .payment .div-content input {
+    width: 73vw;
+  }
+
+  .p-btn {
+    width: 73.5vw;
+  }
+}
