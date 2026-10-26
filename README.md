@@ -21,7 +21,7 @@ A modern, responsive, and visually engaging **Gym & Fitness Website** built enti
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com
+git clone https://github.com/sagarpatil-17/gym_website.git
 cd YOUR-REPOS-NAME
 ```
 
